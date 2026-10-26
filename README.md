@@ -142,8 +142,3 @@ market_research_subagents/
 | **平均** | **32.98s** | **50.47s** | **2.51×** |
 
 总墙钟加速（1.4×）小于 dispatch 加速（2.51×）：主 agent 自身的规划/综合是串行段，不可并行化（Amdahl 定律）。
-
-## 更多文档
-
-- [ARCHITECTURE.md](ARCHITECTURE.md) — 架构设计、技术选型、踩坑记录、优化方向
-- [USAGE_GUIDE.md](USAGE_GUIDE.md) — 详细调用指南与常见问题
